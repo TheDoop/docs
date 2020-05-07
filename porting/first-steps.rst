@@ -35,9 +35,9 @@ Depolama
     16GB depolamaya ihtiyaç vardır. Daha düşük boyutlarda bazı halium dağıtımları için yetersiz depolama sorunu oluşturabilir.
 
 
-Cihazınız bu gereksinimleri karşılamıyorsa Halium'u oluşturabilir ve çalıştırabilirsiniz. Cihazınızın gereksinimleri karışlayıp karşılamadığından emin değilseniz :ref:`contact us <support-channels>`
+Cihazınız bu gereksinimleri karşılamıyorsa Halium'u derleyebilir ve çalıştırabilirsiniz. Cihazınızın gereksinimleri karışlayıp karşılamadığından emin değilseniz :ref:`contact us <support-channels>`
 
-Collaborate
+İşbirliği
 -----------
 
 Head over to the  `list of ports <https://github.com/Halium/projectmanagement/issues>`_ and check if someone is already working on this device. If it is started, collaborate with those porters.
