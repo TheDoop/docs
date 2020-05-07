@@ -1,28 +1,28 @@
 
-First steps
+İLK ADIMLAR
 ===========
 
-This page contains the first steps you should take to start a Halium port.
+Bu sayfa, Halium Portlamaya başlatmak için atmanız gereken ilk adımları içerir.
 
 .. _support-channels:
 
-Getting help
+Yardım alma
 ------------
 
-If you get stuck at any point during the porting process, we're here to help! You can contact us via the following support channels:
+Port işlemi sırasında herhangi bir noktada takılırsanız, size yardımcı olmak için buradayız! Aşağıdaki destek kanallarından bize ulaşabilirsiniz:
 
 * IRC: #halium on Freenode
 * Matrix: #halium:disroot.org
 * Telegram: @halium
 
-When you contact us, please use a pastebin service like `pastebin.com <https://pastebin.com>`_ to **pastebin the full log** of whichever step you are at. Also please point out which section of the documentation you're stuck on.
+Bizimle iletişime geçtiğinizde, Hataları bildirmek için lütfen Pastebin hizmeti kullanın: `pastebin.com <https://pastebin.com>`_ to **pastebin the full log** . 
 
-Pick an Android target device
+Hedef Android cihazı seçin.
 -----------------------------
 
-If you're here, you probably already have a device in mind that you wish to port to. However, we still encourage you to port to devices that meet the following requirements:
+Buradaysanız, muhtemelen Portlamak istediğiniz bir cihazınız var demektir. Ancak, yine de aşağıdaki gereksinimleri karşılayan cihazlara Portlamanızı öneririz:
 
-Source availability
+Kaynak kodu bulunabilirliği
     Your device must have its Linux kernel source publicly available. The source code required to build LineageOS 12.1 or 14.1 must also be available. Both of these should be available if your device has a LineageOS 12.1 or 14.1 port, or a port of a LineageOS derivative based on these versions.
 Kernel
     Halium currently requires a device with a Linux kernel version greater than or equal to 3.10.0. According to the `systemd v217 README <https://github.com/systemd/systemd/blob/v217/README#L40>`_, older device kernels are not compatible with systemd v217 or newer. You may learn your device's kernel version by finding "Kernel Version" in the About page of your Android settings. The kernel version can also be found in the ``Makefile`` at the top level of any Linux kernel source tree.
