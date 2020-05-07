@@ -34,7 +34,8 @@ RAM
 Depolama
     16GB depolamaya ihtiyaç vardır. Daha düşük boyutlarda bazı halium dağıtımları için yetersiz depolama sorunu oluşturabilir.
 
-It is unlikely that you will be able to build and run Halium if your device does not meet these requirements. Please :ref:`contact us <support-channels>` if you are unsure whether your device meets these requirements.
+
+Cihazınız bu gereksinimleri karşılamıyorsa Halium'u oluşturabilir ve çalıştırabilirsiniz. Cihazınızın gereksinimleri karışlayıp karşılamadığından emin değilseniz :ref:`bizimle iletişime geçin <support-channels>
 
 Collaborate
 -----------
