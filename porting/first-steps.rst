@@ -15,7 +15,7 @@ Port işlemi sırasında herhangi bir noktada takılırsanız, size yardımcı o
 * Matrix: #halium:disroot.org
 * Telegram: @halium
 
-Bizimle iletişime geçtiğinizde, Hataları bildirmek için lütfen Pastebin hizmeti kullanın: `pastebin.com <https://pastebin.com>`_ to **pastebin the full log** . 
+Bizimle iletişime geçtiğinizde, Hataları bildirmek için lütfen Pastebin hizmeti kullanın: `pastebin.com <https://pastebin.com>`_ . 
 
 Hedef Android cihazı seçin.
 -----------------------------
@@ -25,13 +25,14 @@ Buradaysanız, muhtemelen Portlamak istediğiniz bir cihazınız var demektir. A
 Kaynak kodu bulunabilirliği
     Cihazınızın Linux çekirdek kaynağı herkese açık olmalıdır. LineageOS 12.1 veya 14.1'i derlemek için gereken kaynak kodu da mevcut olmalıdır. Cihazınızın bir LineageOS 12.1 veya 14.1 portu veya bu versiyonlara dayalı bir LineageOS türevi portu varsa bunların her ikisi de mevcut olmalıdır.
 
-Kernel
-    Halium şu anda Linux çekirdek sürümü 3.10.0 veya daha büyük olan bir cihaz gerektirir. `systemd v217 README'ye göre <https://github.com/systemd/systemd/blob/v217/README#L40>`_, eski aygıt çekirdekleri systemd v217 veya daha yenisi ile uyumlu değildir. Android Chazınızın hakkında sayfasında “Çekirdek Sürümü” nü bularak cihazınızın çekirdek sürümünü öğrenebilirsiniz. Ayrıca 
+Çekirdek (Kernel)
+    Halium şu anda Linux çekirdek sürümü 3.10.0 veya daha büyük olan bir cihaz gerektirir. `systemd v217 README'ye göre <https://github.com/systemd/systemd/blob/v217/README#L40>`_, eski aygıt çekirdekleri systemd v217 veya daha yenisi ile uyumlu değildir. Android Chazınızın hakkında sayfasında “Çekirdek Sürümü” nü bularak cihazınızın çekirdek sürümünü öğrenebilirsiniz. Ayarıca Çekirden kaynak kodundan ``Makefile`` içinden bulabilirsiniz.
 
 RAM
-    1GB of RAM is sufficient to start most Halium distributions. 2GB or higher is recommended for a better end-user experience.
-Storage
-    16GB of storage is required. Devices with less storage will likely not have enough space for a full Halium distribution.
+    1GB Ram ile Çoğu Halium dağıtımı sorunsuz çalıştırılabilir. Daha iyi son kullanıcı deneyimi için 2GB önerilir.
+
+Depolama
+    16GB depolamaya ihtiyaç vardır. Daha düşük boyutlarda bazı halium dağıtımları için yetersiz depolama sorunu oluşturabilir.
 
 It is unlikely that you will be able to build and run Halium if your device does not meet these requirements. Please :ref:`contact us <support-channels>` if you are unsure whether your device meets these requirements.
 
