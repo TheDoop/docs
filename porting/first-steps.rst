@@ -23,11 +23,11 @@ Hedef Android cihazı seçin.
 Buradaysanız, muhtemelen Portlamak istediğiniz bir cihazınız var demektir. Ancak, yine de aşağıdaki gereksinimleri karşılayan cihazlara Portlamanızı öneririz:
 
 Kaynak kodu bulunabilirliği
-    Your device must have its Linux kernel source publicly available. The source code required to build LineageOS 12.1 or 14.1 must also be available. Both of these should be available if your device has a LineageOS 12.1 or 14.1 port, or a port of a LineageOS derivative based on these versions.
-Kernel
-    Halium currently requires a device with a Linux kernel version greater than or equal to 3.10.0. According to the `systemd v217 README <https://github.com/systemd/systemd/blob/v217/README#L40>`_, older device kernels are not compatible with systemd v217 or newer. You may learn your device's kernel version by finding "Kernel Version" in the About page of your Android settings. The kernel version can also be found in the ``Makefile`` at the top level of any Linux kernel source tree.
+    Cihazınızın Linux çekirdek kaynağı herkese açık olmalıdır. LineageOS 12.1 veya 14.1'i derlemek için gereken kaynak kodu da mevcut olmalıdır. Cihazınızın bir LineageOS 12.1 veya 14.1 portu veya bu versiyonlara dayalı bir LineageOS türevi portu varsa bunların her ikisi de mevcut olmalıdır.
 
-    Some Halium distributions may use a kernel as old as 3.4, such as Ubuntu Touch.
+Kernel
+    Halium şu anda Linux çekirdek sürümü 3.10.0 veya daha büyük olan bir cihaz gerektirir. `systemd v217 README'ye göre <https://github.com/systemd/systemd/blob/v217/README#L40>`_, eski aygıt çekirdekleri systemd v217 veya daha yenisi ile uyumlu değildir. Android Chazınızın hakkında sayfasında “Çekirdek Sürümü” nü bularak cihazınızın çekirdek sürümünü öğrenebilirsiniz. Ayrıca 
+
 RAM
     1GB of RAM is sufficient to start most Halium distributions. 2GB or higher is recommended for a better end-user experience.
 Storage
