@@ -35,7 +35,7 @@ Depolama
     16GB depolamaya ihtiyaç vardır. Daha düşük boyutlarda bazı halium dağıtımları için yetersiz depolama sorunu oluşturabilir.
 
 
-Cihazınız bu gereksinimleri karşılamıyorsa Halium'u oluşturabilir ve çalıştırabilirsiniz. Cihazınızın gereksinimleri karışlayıp karşılamadığından emin değilseniz :ref:`bizimle iletişime geçin <support-channels>
+Cihazınız bu gereksinimleri karşılamıyorsa Halium'u oluşturabilir ve çalıştırabilirsiniz. Cihazınızın gereksinimleri karışlayıp karşılamadığından emin değilseniz :ref:`contact us <support-channels>`
 
 Collaborate
 -----------
